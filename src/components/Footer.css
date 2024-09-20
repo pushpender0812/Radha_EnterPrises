@@ -1,0 +1,12 @@
+.footer {
+    background-color: #1f2937; /* Dark Gray */
+  }
+  
+  .footer a {
+    color: white; /* White links */
+  }
+  
+  .footer a:hover {
+    color: #fbbf24; /* Yellow on hover */
+  }
+  

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    animation: backgroundAnimation 10s ease infinite;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% { background-color: #f5f7fa; }
+    50% { background-color: #c3cfe2; }
+    100% { background-color: #f5f7fa; }
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    min-height: 100vh;
+  }
+  
+  .contact-details {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .detail-item {
+    margin-bottom: 20px;
+  }
+  
+  .contact-images {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-image {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  

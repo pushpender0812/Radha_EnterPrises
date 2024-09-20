@@ -1,0 +1,34 @@
+.animated-bg {
+  background-color: #4B3E3E; /* Tailwind red-400 */
+  overflow: hidden;
+  position: relative;
+  z-index: 1; /* Ensure navbar content is on top */
+}
+    
+.animated-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 20%, transparent 20%) repeat;
+  background-size: 50px 50px;
+  animation: drop-animation 2s linear infinite;
+  z-index: -1; /* Move the background animation behind the content */
+}
+
+@keyframes drop-animation {
+  0% {
+    background-position: 0 -50px;
+  }
+  100% {
+    background-position: 0 50px;
+  }
+}
+
+/* In your custom CSS file */
+.text-skyblue-shine {
+  color: #00aaff; /* Sky blue color */
+  text-shadow: 1px 1px 5px rgba(0, 170, 255, 0.7); /* Bluish shadow to give a shining effect */
+}

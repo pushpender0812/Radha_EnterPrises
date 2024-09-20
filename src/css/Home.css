@@ -1,0 +1,48 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+}
+
+.intro-section-container,
+.vision-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-section,
+.vision-section {
+  max-width: 800px;
+  background-color: #fff;
+}
+
+.image-section-container {
+  background-color: #1c3b6b; /* Dark blue background */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(255, 165, 0, 0.5); /* Orange shadow */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.image-item {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vision-section {
+  background-color: #f0f0f0;
+}
+
+.background-lines {
+  /* Add animated lines styles here */
+}
